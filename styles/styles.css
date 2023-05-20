@@ -1,0 +1,125 @@
+/* ----------Navbar --------------- */
+.navbar {
+    background-color: black ;
+}
+.navbar a{
+color: #00FF00
+}
+.dropdown-menu{
+    background-color: #333333;
+}
+.modal-content{
+    background-color:#333333;
+    color:#00ff00;
+}
+#emailHelp{
+    color: rgba(245, 245, 245, 0.362);
+}
+.buscar{
+    width: 200px;
+}
+
+@media (min-width: 1024px) {
+    .navtext{
+        margin-left: 230px;
+    }
+    
+}
+
+
+/* ----------Separador de secciones--------------- */
+
+
+.fonts {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+
+
+   /* ---------Secciones---------- */
+.imagen{
+    box-shadow: 12px 0px 12px 5px rgba(0,0,0,0.2);
+    width: 270px;
+    height: 400px;
+    border-radius: 5px;
+    transition: 750ms;
+    filter: grayscale(2);
+}
+.imagen:hover{
+    scale: 1.1;
+    transition: 750ms;
+    filter: grayscale(0);
+}
+
+.backgroundcolor-sections{
+    background-color: #333333;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------ */
+/* -------------Footer----------- */
+a{
+    text-decoration: none;
+    color:#00FF00;
+    
+}
+a:hover{
+color: #333333;
+}
+.footer-container{ 
+    background-color: black;
+    
+}
+
+footer p, h3 {
+    color: whitesmoke;
+}
+.list-group-item{ /*color de fondo de <li> de footer (puede necesitar correccion*/
+    background-color: black ;
+}
+.btn-bd-primary { /*Boton personalizado*/
+    --bs-btn-font-weight: 700;
+    --bs-btn-color: #333333;
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: #333333 ;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }
+
+.contact-icon{ /*medidas de iconos del footer*/
+    height: 70px;
+    width: 70px;
+}
+/* --------------------------------------------- */
+
+/*Estilos carrousel de videos*/
+
+.contenedor-carrusel{
+    height: 600px; background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

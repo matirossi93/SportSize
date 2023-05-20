@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportSize/damas</title>
+    <link rel="shortcut icon" href="../Assets/Logo/logo-icon-navbar.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+</head>
+<body>
+  <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+              <img class="ms-2" width="30px" height="27px" src="../Assets/Logo/logo-icon-navbar.png" alt="logo de la marca"></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-center navtext">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Bienvenidos</a>
+                  </li>
+                  
+                  <!--<li class="nav-item">-->
+                  <a href="#" class="text-decoration-none nav-link activate" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrate</a>  
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Regístrate</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <form> <!--revisar donde cierra esta etiqueta form-->
+                      <div class="mb-3">
+                        <label for="fullName" class="form-label">Nombre Completo</label>
+                        <input type="Text" class="form-control" id="fulName"> <!--revisar donde cierra esta etiqueta input-->
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> <!--revisar donde cierra esta etiqueta input-->
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Todos los productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Mujer</a></li>
+                      <li><a class="dropdown-item" href="#">Hombre</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./seccionniños.html">Niños</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              
+                <form class="row " role="search">
+                  <input class="form-control me-2 buscar" type="search" placeholder="Search" aria-label="Search"> <!--revisar donde cierra esta etiqueta input-->
+                  <button class="btn btn-outline-success " type="submit">Buscar</button>
+                </form>
+
+              </div>
+            </div>
+          </nav>
+
+
+
+
+  </header>
+  
+  <main>
+    <section class="container-fluid row justify-content-evenly seccionDamas">
+      <div class="col-10 text-center mt-4 mb-4 p-0 " >
+        <img src="../Assets/Logo/logo-presentacion.png" alt="logo de la marca" height="70px"> 
+      </div>
+      
+      <div class="card p-0 border col-10 col-md-5 col-lg-3 m-2">
+        <img src="../Assets/seccion damas/imagen-2.webp" class= "card-img-top width-100%" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Buzo niño azul claro</h5>
+          <p class="card-text">Diseñado para darles a ellos la comodidad que se merecen.</p>
+          <div class="d-flex justify-content-around talle ">
+            <input type="radio" class="btn-check" name="talle1" id="talleS-1" autocomplete="off">
+            <label class="btn btn-outline-success" for="talleS-1">S</label>
+            <input type="radio" class="btn-check" name="talle1" id="talleM-1" autocomplete="off" >
+            <label class="btn btn-outline-success" for="talleM-1">M</label>
+            <input type="radio" class="btn-check" name="talle1" id="talleL-1" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleL-1">L</label>
+            <input type="radio" class="btn-check" name="talle1" id="talleXL-1" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleXL-1">XL</label>
+          </div>
+          <p class="m-3 precio">$15.000</p>
+          <div class="d-flex justify-content-center carrito">
+            <a href="#" class="btn btn-primary mt-2 boton">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card p-0 border col-10 col-md-5 col-lg-3 m-2">
+        <img src="../Assets/seccion damas/imagen-1.webp" class= "card-img-top width-100%" alt="">
+        <div class="card-body">
+          <h5 class="card-title">GOLD HEXAGON TOP
+          </h5>
+          <p class="card-text">Precio de venta$14.540 ARS</p>
+          <div class="d-flex justify-content-around talle ">
+            <input type="radio" class="btn-check" name="talle2" id="talleS-2" autocomplete="off">
+            <label class="btn btn-outline-success" for="talleS-2">S</label>
+            <input type="radio" class="btn-check" name="talle2" id="talleM-2" autocomplete="off" >
+            <label class="btn btn-outline-success" for="talleM-2">M</label>
+            <input type="radio" class="btn-check" name="talle2" id="talleL-2" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleL-2">L</label>
+            <input type="radio" class="btn-check" name="talle2" id="talleXL-2" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleXL-2">XL</label>
+          </div>
+          <p class="m-3 precio">$15.000</p>
+          <div class="d-flex justify-content-center carrito">
+            <a href="#" class="btn btn-primary mt-2 boton">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="card p-0 border col-10 col-md-5 col-lg-3 m-2">
+        <img src="../Assets/seccion damas/imagen3.webp" class= "card-img-top width-100%" alt="">
+        
+        <div class="card-body">
+          <h5 class="card-title">Buzo niño azul claro</h5>
+          <p class="card-text">Diseñado para darles a ellos la comodidad que se merecen.</p>
+          <div class="d-flex justify-content-around talle ">
+            <input type="radio" class="btn-check" name="talle3" id="talleS-3" autocomplete="off">
+            <label class="btn btn-outline-success" for="talleS-3">S</label>
+            <input type="radio" class="btn-check" name="talle3" id="talleM-3" autocomplete="off" >
+            <label class="btn btn-outline-success" for="talleM-3">M</label>
+            <input type="radio" class="btn-check" name="talle3" id="talleL-3" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleL-3">L</label>
+            <input type="radio" class="btn-check" name="talle3" id="talleXL-3" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleXL-3">XL</label>
+          </div>
+          <p class="m-3 precio">$15.000</p>
+          <div class="d-flex justify-content-center carrito">
+            <a href="#" class="btn btn-primary mt-2 boton">Añadir al carrito</a>
+            
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="card p-0 border col-10 col-md-5 col-lg-3 m-2">
+        <img src="../assets/seccion damas/imagen-4.webp" class= "card-img-top width-100%" alt="">
+        
+        <div class="card-body">
+          <h5 class="card-title">Buzo niño azul claro</h5>
+          <p class="card-text">Diseñado para darles a ellos la comodidad que se merecen.</p>
+          <div class="d-flex justify-content-around talle ">
+            <input type="radio" class="btn-check" name="talle4" id="talleS-4" autocomplete="off">
+            <label class="btn btn-outline-success" for="talleS-4">S</label>
+            <input type="radio" class="btn-check" name="talle4" id="talleM-4" autocomplete="off" >
+            <label class="btn btn-outline-success" for="talleM-4">M</label>
+            <input type="radio" class="btn-check" name="talle4" id="talleL-4" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleL-4">L</label>
+            <input type="radio" class="btn-check" name="talle4" id="talleXL-4" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleXL-4">XL</label>
+          </div>
+          <p class="m-3 precio">$15.000</p>
+          <div class="d-flex justify-content-center carrito">
+            <a href="#" class="btn btn-primary mt-2 boton">Añadir al carrito</a>
+
+          </div>
+
+      </div>
+      </div>
+
+      <div class="card p-0 border col-10 col-md-5 col-lg-3 m-2">
+        <img src="../assets/seccion damas/imagen-5.webp" class= "card-img-top width-100%" alt="">
+      
+        <div class="card-body">
+          <h5 class="card-title">Buzo niño azul claro</h5>
+          <p class="card-text">Diseñado para darles a ellos la comodidad que se merecen.</p>
+          <div class="d-flex justify-content-around talle ">
+            <input type="radio" class="btn-check" name="talle5" id="talleS-5" autocomplete="off">
+            <label class="btn btn-outline-success" for="talleS-5">S</label>
+            <input type="radio" class="btn-check" name="talle5" id="talleM-5" autocomplete="off" >
+            <label class="btn btn-outline-success" for="talleM-5">M</label>
+            <input type="radio" class="btn-check" name="talle5" id="talleL-5" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleL-5">L</label>
+            <input type="radio" class="btn-check" name="talle5" id="talleXL-5" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleXL-5">XL</label>
+          </div>
+          <p class="m-3 precio">$15.000</p>
+          <div class="d-flex justify-content-center carrito">
+            <a href="#" class="btn btn-primary mt-2 boton">Añadir al carrito</a>
+
+          </div>
+
+      </div>
+      </div>
+
+      <div class="card p-0 border col-10 col-md-5 col-lg-3 m-2">
+        <img src="../assets/seccion damas/imagen-6.webp" class= "card-img-top width-100%" alt="">
+      
+        <div class="card-body">
+          <h5 class="card-title">Buzo niño azul claro</h5>
+          <p class="card-text">Diseñado para darles a ellos la comodidad que se merecen.</p>
+          <div class="d-flex justify-content-around talle ">
+            <input type="radio" class="btn-check" name="talle6" id="talleS-6" autocomplete="off">
+            <label class="btn btn-outline-success" for="talleS-6">S</label>
+            <input type="radio" class="btn-check" name="talle6" id="talleM-6" autocomplete="off" >
+            <label class="btn btn-outline-success" for="talleM-6">M</label>
+            <input type="radio" class="btn-check" name="talle6" id="talleL-6" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleL-6">L</label>
+            <input type="radio" class="btn-check" name="talle6" id="talleXL-6" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="talleXL-6">XL</label>
+          </div>
+          <p class="m-3 precio">$15.000</p>
+          <div class="d-flex justify-content-center carrito">
+            <a href="#" class="btn btn-primary mt-2 boton">Añadir al carrito</a>
+
+          </div>
+
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class=" container-fluid row p-4  footer-container mx-0">
+      <div class="col-12 col-md-3 p-3 footer-div row gap-2">
+        <h3>Unete a nuestro newsletter</h3>
+        <p>Tendras acceso a las ultimas tendencias, ofertas y más.</p>
+        <input type="email" name="userMail" id="mailUsuario" placeholder="Introduzca su email" class="form-control-lg col-md-12 col-lg-8 ">
+        <button type="submit" class="btn  btn-bd-primary col-md-10 col-lg-7">SUSCRIBIRSE</button>
+      </div>
+      <div class="col-12 col-md-3 p-3 footer-div">
+        <h3>AYUDA</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="#">Envíos y Entregas</a></li>
+          <li class="list-group-item"><a href="#">Cambios y devoluciones</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 p-3 footer-div">
+        <h3>INFORMACIÓN</h3>
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item"><a href="#">Preguntas frecuentes</a></li>
+          <li class="list-group-item"><a href="#">Política de Privacidad</a></li>
+          <li class="list-group-item"><a href="#">Aviso Legal</a></li>
+          <li class="list-group-item"><a href="#">Sobre nosotros</a></li>  
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 footer-div row align-items-center justify-content-center justify-content-around">
+        <div class="col-3 col-md-12 contact-icon"><a href="https://www.facebook.com" target="_blank"><img class="img-fluid" src="../Assets/iconos footer/facebook.png" alt="facebook-icon"></a></div>
+        <div class="col-3 col-md-12 contact-icon"><a href="https://www.instagram.com" target="_blank"><img class="img-fluid" src="../Assets/iconos footer/instagram.png" alt="insta-icon"></a></div>
+        <div class="col-3 col-md-12 contact-icon"><a href="https://web.whatsapp.com" target="_blank"><img class="img-fluid" src="../Assets/iconos footer/whatsapp.png" alt="wp-icon"></a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
